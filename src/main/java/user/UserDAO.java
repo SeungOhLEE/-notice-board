@@ -24,6 +24,8 @@ public class UserDAO {
 			e.printStackTrace();
 		}
 	}
+	
+	
 	public int login(String userID, String userPassword) {
 		String SQL = "SELECT userPassword FROM USER WHERE userID=?";
 		try {
