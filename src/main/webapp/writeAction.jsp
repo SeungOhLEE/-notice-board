@@ -24,7 +24,7 @@
 			PrintWriter script = response.getWriter();
 			script.println("<script>");
 			script.println("alert('로그인을 하세요.')");
-			script.println("location.href = login.jsp");
+			script.println("location.href = 'login.jsp'");
 			script.println("</script>");
 		} else {
 			if(bbs.getBbsTitle() == null || bbs.getBbsContent() == null ) {
@@ -46,7 +46,7 @@
 						else {
 							PrintWriter script = response.getWriter();
 							script.println("<script>");
-							script.println("location.href = 'bbs.jsp");
+							script.println("location.href = 'bbs.jsp'");
 							script.println("</script>");
 						}
 					}				

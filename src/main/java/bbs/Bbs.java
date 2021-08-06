@@ -8,7 +8,7 @@ public class Bbs {
 	private String userID;
 	private String bbsDate;
 	private String bbsContent;
-	private int bbsAavailable;
+	private int bbsAvailable;
 	
 	
 	public int getBbsID() {
@@ -41,11 +41,11 @@ public class Bbs {
 	public void setBbsContent(String bbsContent) {
 		this.bbsContent = bbsContent;
 	}
-	public int getBbsAavailable() {
-		return bbsAavailable;
+	public int getBbsAvailable() {
+		return bbsAvailable;
 	}
-	public void setBbsAavailable(int bbsAavailable) {
-		this.bbsAavailable = bbsAavailable;
+	public void setBbsAvailable(int bbsAvailable) {
+		this.bbsAvailable = bbsAvailable;
 	}
 	
 }
