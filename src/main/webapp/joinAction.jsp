@@ -14,7 +14,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-
+<link rel="stylesheet" href="css/custom.css">
 <title>JSP 게시판 웹사이트</title>
 </head>
 <body>
@@ -51,7 +51,7 @@
 				session.setAttribute("userID", user.getUserID());
 				PrintWriter script = response.getWriter();
 				script.println("<script>");
-				script.println("location.href = 'main.jsp");
+				script.println("location.href = 'main.jsp'");
 				script.println("</script>");
 			}
 		}
